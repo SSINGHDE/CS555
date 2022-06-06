@@ -1,0 +1,40 @@
+Individuals
++-------+----------------+-----+-------------+-----+-------+-------------+--------+-------+
+|   ID  |      Name      | Sex |  Birth Date | Age | Alive |  Death Date | Spouse | Child |
++-------+----------------+-----+-------------+-----+-------+-------------+--------+-------+
+| @I10@ | Shivkumar Rao  |  M  | 1961 SEP 13 |  60 |  True |      NA     |  @F8@  |   NA  |
+| @I11@ |  Keshav Kumar  |  M  |  1985 JAN 2 |  37 |  True |      NA     |  @F9@  |  @F5@ |
+| @I12@ | Priya Pradhan  |  F  | 1965 JUN 19 |  56 |  True |      NA     |  @F8@  |   NA  |
+| @I13@ |   Shilpa Rao   |  F  | 1983 AUG 21 |  38 |  True |      NA     | @F10@  |  @F8@ |
+| @I14@ |   Satish Rao   |  M  | 1994 JUN 18 |  27 |  True |      NA     |   NA   |  @F4@ |
+| @I15@ |   Arun Gupta   |  M  |  1982 OCT 5 |  39 |  True |      NA     |  @F7@  |   NA  |
+| @I16@ |  Nisha Gupta   |  F  | 2009 DEC 24 |  12 |  True |      NA     |   NA   |  @F7@ |
+| @I17@ |   Nina Singh   |  F  | 1989 JAN 31 |  33 |  True |      NA     |  @F1@  |   NA  |
+| @I18@ |   Rishi Seth   |  M  | 1983 APR 22 |  39 |  True |      NA     | @F10@  |   NA  |
+| @I19@ | Sakshi Kapoor  |  F  | 1988 FEB 29 |  34 |  True |      NA     |  @F9@  |   NA  |
+|  @I1@ |  Samay Singh   |  M  | 1987 MAY 13 |  35 |  True |      NA     |  @F1@  |  @F2@ |
+| @I20@ |  Sareen Kumar  |  F  | 2013 APR 20 |  9  |  True |      NA     |   NA   |  @F9@ |
+|  @I2@ | Satyajit Singh |  M  |  1958 FEB 4 |  64 |  True |      NA     |  @F2@  |  @F3@ |
+|  @I3@ | Susmita Sharma |  F  | 1960 JAN 15 |  62 |  True |      NA     |  @F2@  |   NA  |
+|  @I4@ | Sukumar Singh  |  M  | 1934 DEC 14 |  87 |  True |      NA     |  @F3@  |   NA  |
+|  @I5@ | Saswati Kumari |  F  | 1935 NOV 30 |  86 |  True |      NA     |  @F3@  |   NA  |
+|  @I6@ |  Sujata Singh  |  F  |  1962 JUL 8 |  59 |  True |      NA     |  @F6@  |  @F3@ |
+|  @I7@ | Sheetal Singh  |  F  | 1985 MAR 12 |  37 |  True |      NA     |  @F7@  |  @F2@ |
+|  @I8@ | Sushila Singh  |  F  |  1961 APR 9 |  61 |  True |      NA     |   NA   |  @F3@ |
+|  @I9@ | Kaplesh Kumar  |  M  |  1960 AUG 6 |  61 | False | 1990 OCT 16 |  @F5@  |   NA  |
++-------+----------------+-----+-------------+-----+-------+-------------+--------+-------+
+Families
++-------+-------------+-------------+------------+----------------+--------+----------------+--------------------------+
+|   ID  |   Married   |   Divorced  | Husband ID | Husband's Name | Wif ID |  Wife's Name   |         Children         |
++-------+-------------+-------------+------------+----------------+--------+----------------+--------------------------+
+| @F10@ | 2022 MAR 14 |      NA     |   @I18@    |   Rishi Seth   | @I13@  |   Shilpa Rao   |            []            |
+|  @F1@ | 2014 DEC 18 |      NA     |    @I1@    |  Samay Singh   | @I17@  |   Nina Singh   |            []            |
+|  @F2@ | 1980 SEP 26 |      NA     |    @I2@    | Satyajit Singh |  @I3@  | Susmita Sharma |     ['@I1@', '@I7@']     |
+|  @F3@ | 1956 SEP 17 |      NA     |    @I4@    | Sukumar Singh  |  @I5@  | Saswati Kumari | ['@I2@', '@I6@', '@I8@'] |
+|  @F4@ | 1993 MAY 12 |      NA     |   @I10@    | Shivkumar Rao  |  @I6@  |  Sujata Singh  |        ['@I14@']         |
+|  @F5@ | 1981 MAY 10 |      NA     |    @I9@    | Kaplesh Kumar  |  @I6@  |  Sujata Singh  |        ['@I11@']         |
+|  @F6@ |      0      |      NA     |     0      |      None      |  @I6@  |  Sujata Singh  |            []            |
+|  @F7@ |  2005 MAY 6 |      NA     |   @I15@    |   Arun Gupta   |  @I7@  | Sheetal Singh  |        ['@I16@']         |
+|  @F8@ | 1981 MAY 23 | 1988 AUG 15 |   @I10@    | Shivkumar Rao  | @I12@  | Priya Pradhan  |        ['@I13@']         |
+|  @F9@ | 2010 JUN 16 |      NA     |   @I11@    |  Keshav Kumar  | @I19@  | Sakshi Kapoor  |        ['@I20@']         |
++-------+-------------+-------------+------------+----------------+--------+----------------+--------------------------+
